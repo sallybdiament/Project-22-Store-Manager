@@ -34,7 +34,7 @@ describe('Teste de unidade do productController', function () {
     res.json = sinon.stub().returns();
     sinon
       .stub(services.productServices, 'findAll')
-      .resolves({ type: null, message: productList });
+      .resolves(productList);
 
     await productController.listProducts(req, res);
 

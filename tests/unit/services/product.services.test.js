@@ -22,7 +22,7 @@ describe('Verificando service de product', function () {
   it('listagem completa de productos', async function () {
     sinon.stub(productModel, 'findAll').resolves(mockProducts);
     const result = await productServices.findAll();
-    expect(result.message).to.deep.equal(mockProducts);
+    expect(result).to.deep.equal(mockProducts);
   });
   it('busca de 1 produto caso ID exista', async function () {
     sinon.stub(productModel, 'findById').resolves(mockProducts[0]);
