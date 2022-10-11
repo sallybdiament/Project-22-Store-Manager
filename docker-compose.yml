@@ -56,6 +56,7 @@ services:
     networks:
       # Conecta esse serviço com a rede que criada 
       - store_manager_net
+    platform: linux/amd64
 
 # Lista de redes que os containeres irão utilizar
 networks:
