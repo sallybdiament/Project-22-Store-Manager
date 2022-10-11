@@ -22,7 +22,7 @@
     "method": "GET",
     "sortNum": 0,
     "created": "2022-10-11T20:19:45.541Z",
-    "modified": "2022-10-11T20:22:32.426Z",
+    "modified": "2022-10-11T20:44:14.477Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -79,6 +79,20 @@
     "sortNum": 0,
     "created": "2022-10-11T20:25:06.310Z",
     "modified": "2022-10-11T20:34:48.474Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "e5bd888c-4faa-4342-9467-7f9dd59cd9e4",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost/products",
+    "url": "http://localhost/products",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-10-11T20:44:02.359Z",
+    "modified": "2022-10-11T20:44:02.636Z",
     "headers": [],
     "params": [],
     "tests": []
