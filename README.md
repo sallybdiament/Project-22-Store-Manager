@@ -8,16 +8,16 @@ Projeto 23 da [Trybe](https://wwww.betrybe.com), módulo de Back-End.
 
 ## O Projeto
 
-1. Criação de Rotas de Produtos: 
-  * Listar produtos: endpoints GET `/products` e `/products/:id`.
-  * Cadastrar produtos: endpoint POST `/products`, com validações.
-  * Atualizar/update de produto: endpoint PUT `/products/:id`, verificando se o id do produto é encontrado.
-  * Deletar um produto: endpoint DELETE `/products/:id`, verificando se o id do produto é encontrado.
-2. Criação de Rotas de Vendas:
-  * Cadastrar nas tabelas `sales` e `sales_product`, através do endpoint POST `/sales`, com validações.
-  * Listar vendas: endpoints GET `/sales` e `/sales/:id`.
-3. Testes unitários
- * Cobertura de testes com Mocha, Chai e Sinon.
+**1. Criação de Rotas de Produtos: **
+   - Listar produtos: endpoints GET `/products` e `/products/:id`.
+   - Cadastrar produtos: endpoint POST `/products`, com validações.
+   - Atualizar/update de produto: endpoint PUT `/products/:id`, verificando se o id do produto é encontrado.
+   - Deletar um produto: endpoint DELETE `/products/:id`, verificando se o id do produto é encontrado.
+**2. Criação de Rotas de Vendas:**
+   - Cadastrar nas tabelas `sales` e `sales_product`, através do endpoint POST `/sales`, com validações.
+   - Listar vendas: endpoints GET `/sales` e `/sales/:id`.
+**3. Testes unitários:
+   - Cobertura de testes com Mocha, Chai e Sinon.
 
 
 ## Instalação 
