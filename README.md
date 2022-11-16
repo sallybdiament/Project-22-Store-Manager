@@ -46,9 +46,9 @@ Criando as tabelas: ```npm run migration```
 
 Populando o banco com dados: ```npm run seed```
 
-#### 6 - Executare a aplicação:
+#### 6 - Iniciar a aplicação Node com Nodemon:
 
-```npm run dev```
+```npm run debug```
 
 #### \*Foi utilizado o Thunder Client como cliente de requisições HTTP\*
 
